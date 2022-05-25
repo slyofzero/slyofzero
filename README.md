@@ -2,6 +2,10 @@
 
 <center><b>Cats and Coding are love!</b></center>
 
+---
+
+\
+
 - 🔭 I’m currently working on many Kaggle projects
 - 🌱 I’m currently learning everything I can! (but mostly machine learning...)
 - 👯 I’m looking to collaborate on any open-source project or internship I am fit for!
