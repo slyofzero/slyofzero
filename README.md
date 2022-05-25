@@ -1,8 +1,6 @@
 ### Hi there, I'm Ishan aka Zero 👋!!
 
-## Cats and Coding are love!
-
-18, Passionate, and a head filled with ideas!
+### 18, Passionate, and a head filled with ideas!
 
 ---
 
