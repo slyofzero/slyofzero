@@ -8,9 +8,8 @@
 
 - 🔭 I’m currently working on many Kaggle projects
 - 🌱 I’m currently learning everything I can! (but mostly machine learning...)
-- 👯 I’m looking to collaborate on any open-source project or internship I am fit for!
-<!-- - 🤔 I’m looking for help with ... -->
-- 💬 2021 goals: A sick Kaggle.com profile!
+- 👯 I’m looking to collaborate on any open-source projects and internships I am fit for!
+- 💬 2021 goals: A sick Kaggle.com and GitHub profile!
 - 📫 How to reach me: 
   1. Twitter - My [Twitter](https://twitter.com/art_of_zero) Profile
   2. LinkedIn - My [LinkedIn](https://www.linkedin.com/in/ishan-shishodiya-5100061b9/) Profile
