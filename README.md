@@ -1,16 +1,13 @@
-### Hi there 👋
+### Hi there 👋 Ishan here!!
 
-<!--
-**slyofzero/slyofzero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<center><b>Cats and Coding are love!</b></center>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on many Kaggle projects
+- 🌱 I’m currently learning everything I can! (but mostly machine learning...)
+- 👯 I’m looking to collaborate on any open-source project or internship I am fit for!
+<!-- - 🤔 I’m looking for help with ... -->
+- 💬 2021 goals: A sick Kaggle.com profile!
+- 📫 How to reach me: 
+  1. Twitter - My [Twitter](https://twitter.com/art_of_zero) Profile
+  2. LinkedIn - My [LinkedIn](https://www.linkedin.com/in/ishan-shishodiya-5100061b9/) Profile
+  3. Medium - Checkout my articles on ML theory on [Medium!](https://medium.com/@sly.of.zero)
