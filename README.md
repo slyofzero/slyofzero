@@ -1,6 +1,6 @@
-### Hi there 👋 Ishan here!!
+### Hi there, I'm Ishan aka Zero 👋!!
 
-<center><b>Cats and Coding are love!</b></center>
+##Cats and Coding are love!
 
 ---
 
