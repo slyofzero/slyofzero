@@ -2,6 +2,8 @@
 
 ## Cats and Coding are love!
 
+18, Passionate, and a head filled with ideas!
+
 ---
 
 - 🔭 I’m currently working on many Kaggle projects
