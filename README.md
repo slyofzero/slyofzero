@@ -1,10 +1,8 @@
 ### Hi there, I'm Ishan aka Zero 👋!!
 
-##Cats and Coding are love!
+## Cats and Coding are love!
 
 ---
-
-\
 
 - 🔭 I’m currently working on many Kaggle projects
 - 🌱 I’m currently learning everything I can! (but mostly machine learning...)
