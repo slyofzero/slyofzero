@@ -10,7 +10,20 @@
 - 🌱 I’m currently learning everything I can! (but mostly machine learning...)
 - 👯 I’m looking to collaborate on any open-source projects and internships I am fit for!
 - 💬 2021 goals: A sick Kaggle.com and GitHub profile!
-- 📫 How to reach me: 
-  1. Twitter - My [Twitter](https://twitter.com/art_of_zero) Profile
-  2. LinkedIn - My [LinkedIn](https://www.linkedin.com/in/ishan-shishodiya-5100061b9/) Profile
-  3. Medium - Checkout my articles on ML theory on [Medium!](https://medium.com/@sly.of.zero)
+
+### Connect with me:
+
+[![website](./img/globe-light.svg)](https://codestackr.com#gh-light-mode-only)
+[![website](./img/globe-dark.svg)](https://codestackr.com#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/youtube-light.svg)](https://youtube.com/codestackr#gh-light-mode-only)
+[![website](./img/youtube-dark.svg)](https://youtube.com/codestackr#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/twitter-light.svg)](https://twitter.com/codestackr#gh-light-mode-only)
+[![website](./img/twitter-dark.svg)](https://twitter.com/codestackr#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/linkedin-light.svg)](https://linkedin.com/in/codeSTACKr#gh-light-mode-only)
+[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/codeSTACKr#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/instagram-light.svg)](https://instagram.com/codeSTACKr#gh-light-mode-only)
+[![website](./img/instagram-dark.svg)](https://instagram.com/codeSTACKr#gh-dark-mode-only)
