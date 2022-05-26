@@ -4,9 +4,9 @@
 
 ---
 
-- 🔭 I’m currently working on many Kaggle projects
-- 🌱 I’m currently learning everything I can! (but mostly machine learning...)
-- 👯 I’m looking to collaborate on any open-source projects and internships I am fit for!
+- 🔭 Currently working on many Kaggle projects
+- 🌱 Learning everything I can! (but mostly machine learning...)
+- 👯 Looking to collaborate on any open-source projects and internships I am fit for!
 - 💬 2021 goals: A sick Kaggle.com and GitHub profile!
 
 ### Connect with me:
