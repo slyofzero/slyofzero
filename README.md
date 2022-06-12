@@ -1,4 +1,4 @@
-### Hi there, I'm Ishan aka Zero 👋!!
+### Hi there, Ishan here 👋!!
 
 ### 18, Passionate, and a head filled with ideas!
 
