@@ -1,10 +1,10 @@
 ### Hi there, Ishan here 👋!!
 
-### 19, Passionate, and a head filled with ideas!
+### 21, Passionate, and a head filled with ideas!
 
 ---
+I freelance as a Web and Blockchain developer with extensive experience in both frontend and backend systemes. 
 
-- 🔭 Currently working on many NextJS projects
-- 🌱 Learning everything I can! (but mostly web development and machine learning...)
-- 👯 Looking to collaborate on any open-source projects and internships I am fit for!
-- 💬 2023 goals: A portfolio website with slick animations and an active GitHub profile!
+Currently learning Rust and diving deep in low level systems programming. Also trying to create Lox in Rust 👀
+
+Leetcode problems daily at - [LeetCode in Rust](https://github.com/slyofzero/LeetCode)
