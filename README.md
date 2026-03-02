@@ -1,8 +1,16 @@
-### Hi there, Ishan here 👋!!
+## Hi, I’m Ishan 👋
 
-### 22, Passionate, and a head filled with ideas!
+Engineer transitioning into AI research.
 
----
-I freelance as a Web and Blockchain developer with extensive experience in both frontend and backend systemes. 
+My background lies in building production-grade systems across web, automation, and distributed applications — experience that now informs my shift toward understanding learning-based systems rather than just engineering deterministic ones.
 
-Currently pivoting towards AI research, learning GenerativeAI, and getting into image generation.
+I’m currently focused on:
+- Deep Learning fundamentals
+- Generative Models
+- Representation Learning
+
+Interested in the intersection of theory-driven insight and applied intelligence.
+
+Moving from building software → to studying systems that can build abstractions.
+
+> 🧠 Curious about how machines learn structure, not just patterns.
