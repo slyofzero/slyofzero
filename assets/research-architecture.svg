@@ -118,7 +118,7 @@
 
     <!-- Subtitle / Rationale -->
     <text x="360" y="59" fill="#B5B0A6" font-size="11.5" text-anchor="middle" class="font-sans">
-      Investigating how representations emerge from first principles — unifying low-level compute, continuous dynamics, and reasoning
+      Investigating how representations emerge from first principles: unifying low-level compute, continuous dynamics, and reasoning
     </text>
 
     <!-- Pills / Tags -->

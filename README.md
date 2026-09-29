@@ -1,6 +1,6 @@
-<!-- Header Banner with Dark Slate and Terracotta Palette -->
+<!-- Header Banner with Dark Slate to Terracotta Fluent Gradient -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=191C1E&height=125&section=header&text=Ishan%20Shishodiya&fontSize=36&fontAlignY=36&fontColor=F7F6F2&desc=Systems%20Engineer%20%E2%86%92%20AI%20Research%20Engineer&descFontSize=16&descAlignY=66&descColor=E07A5F" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:181B1E,28:242A30,58:5E2E23,82:A84C36,100:E07A5F&height=145&section=header&text=Ishan%20Shishodiya&fontSize=36&fontAlignY=38&fontColor=F7F6F2&desc=Systems%20Engineer%20%E2%86%92%20AI%20Research%20Engineer&descFontSize=16&descAlignY=65&descColor=F7F6F2&animation=fadeIn" width="100%" alt="Header Banner" />
   <br/>
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1200&color=E07A5F&center=true&vCenter=true&width=620&height=36&lines=Building+'MyTorch'%3A+C%2B%2B%2FCUDA+Autograd+%26+Tensor+Engine;Researching+Diffusion+Priors+for+Neural+Frame+Generation;Exploring+Reinforcement+Learning+in+Structured+Planning+(BlocksWorld);Understanding+how+machines+learn+structure%2C+not+just+patterns." alt="Typing SVG" />
@@ -15,66 +15,65 @@
 
 ### 🧭 Research Statement
 
-I am an engineer with a background in production-grade systems, concurrent pipelines, and distributed applications, now focused on **fundamental AI research and research engineering**. 
+I am a systems engineer transitioning into AI research and applied AI science. My background is in production distributed systems, concurrency, and high-throughput pipelines.
 
-Rather than treating modern deep learning as a set of black-box APIs, I approach the field from **first principles**: analyzing how representations emerge, optimizing low-level tensor execution on hardware, and designing learning dynamics capable of generalizing beyond memorized patterns.
+In machine learning, I care about first-principles understanding over API wrapper engineering. Deep learning models are not black boxes to call; they are numerical systems shaped by hardware execution constraints, loss surface geometry, and optimization dynamics. My focus is on how representations emerge, how continuous generative flows evolve, and how to execute low-level tensor computations directly on hardware.
 
 <p align="center">
   <img src="./assets/research-architecture.svg" alt="Research Architecture & Exploration Pillars" width="100%" />
 </p>
 
+---
+
+### 🔬 Core Research Focus
+
+* **Low-Level ML & Compute Engines**: Implementing automatic differentiation engines, custom CUDA kernels, memory allocators, and computation graphs from scratch in C++ and CUDA (`MyTorch`).
+* **Generative Modeling & Continuous Dynamics**: Investigating Diffusion Models, Continuous Normalizing Flows, and Flow Matching. Using diffusion priors for neural video frame interpolation conditioned on bidirectional temporal context.
+* **Reinforcement Learning & Structured Planning**: Evaluating policy and value function approximations in combinatorial environments with sparse reward landscapes (such as BlocksWorld), focusing on state abstractions and credit assignment.
+* **Representation Learning & Latent Geometry**: Analyzing inductive biases, manifold regularization, and why learned representations generalize across relational structures instead of merely fitting training distributions.
 
 ---
 
-### 🔬 Core Research & Exploration Domains
-
-* **Low-Level ML & Compute Engines**: Demystifying backpropagation and GPU compute by implementing tensor execution graphs, memory allocators, and custom CUDA kernels from scratch.
-* **Generative Modeling & Neural Frame Synthesis**: Investigating diffusion models and continuous flows for temporal interpolation—synthesizing intermediate video frames conditioned on bidirectional temporal context.
-* **Reinforcement Learning & Structured Planning**: Examining how policy and value networks operate in structured combinatorial environments (e.g., BlocksWorld), bridging symbolic reasoning with learned state-action representations.
-* **Representation & Latent Geometry**: Understanding inductive biases, manifold regularization, and why learning-based systems capture underlying structure.
-
----
-
-### 🛠️ In-Flight Projects & Implementations
+### 🛠️ Projects & Research Code
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ <code>MyTorch</code> — Deep Learning Framework in C++ & CUDA</h4>
-      <p>A from-scratch, educational tensor computation engine and automatic differentiation framework designed to bridge hardware execution and deep learning theory.</p>
+      <h4>⚡ <code>MyTorch</code>: C++ and CUDA Tensor Engine</h4>
+      <p>A from-scratch deep learning tensor library and reverse-mode automatic differentiation engine in C++ and CUDA, built to study hardware execution and memory mechanics without framework abstractions.</p>
       <ul>
-        <li>Dynamic computation graph with reverse-mode autograd engine</li>
-        <li>Custom CUDA kernels for matrix ops, activations, and reduction passes</li>
-        <li>Memory pooling and strided N-dimensional tensor representations</li>
+        <li>Dynamic computation graph with reverse-mode automatic differentiation</li>
+        <li>Custom CUDA kernels for GEMM, elementwise activations, and reductions</li>
+        <li>Memory pooling and strided N-dimensional tensor layout implementations</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🎞️ Diffusion-Based Neural Frame Interpolation</h4>
-      <p>Exploring score-based generative priors to synthesize high-fidelity intermediate video frames, targeting coherent motion estimation and occlusion handling.</p>
+      <h4>🎞️ Neural Frame Interpolation with Diffusion Priors</h4>
+      <p>Using score-based generative models to synthesize high-fidelity intermediate video frames, targeting temporal consistency and complex motion occlusions.</p>
       <ul>
         <li>Latent diffusion conditioned on preceding and succeeding frames</li>
-        <li>Temporal attention blocks and optical flow consistency penalties</li>
-        <li>Analysis of perceptual artifact minimization vs. pixel-level MSE</li>
+        <li>Temporal cross-attention with perceptual and optical flow consistency penalties</li>
+        <li>Benchmarking stochastic sampling trajectories against classical optical flow warping</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>🧱 Reinforcement Learning for Abstract Planning</h4>
-      <p>Formulating deep and tabular RL methods to solve symbolic planning benchmarks (e.g., BlocksWorld) with sparse reward landscapes.</p>
+      <p>Applying tabular and deep RL algorithms to structured symbolic planning benchmarks (such as BlocksWorld) under sparse reward signals.</p>
       <ul>
-        <li>Value function approximation over relational state representations</li>
-        <li>Hindsight Experience Replay (HER) and curriculum exploration</li>
-        <li>Evaluating sample efficiency vs. classical heuristic search (A*, PDDL)</li>
+        <li>Value function approximation over relational and graph state representations</li>
+        <li>Hindsight Experience Replay (HER) combined with curriculum exploration</li>
+        <li>Measuring empirical sample complexity against heuristic symbolic search (A*, PDDL)</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>📐 Paper Reproductions & Empirical Ablations</h4>
-      <p>Clean, reproducible implementations of foundational literature with detailed logs of optimization behavior and loss surfaces.</p>
+      <h4>📐 Foundational Paper Reproductions</h4>
+      <p>Minimal, clean implementations of foundational papers to inspect derivations, loss landscapes, and empirical optimization behavior.</p>
       <ul>
-        <li>Denoising Diffusion Probabilistic Models (DDPM / DDIM)</li>
-        <li>Flow Matching and Continuous Normalizing Flows</li>
-        <li>PPO / Actor-Critic dynamics on discrete control environments</li>
+        <li>Denoising Diffusion Probabilistic Models (DDPM / DDIM) with custom noise schedules</li>
+        <li>Flow Matching and Continuous Normalizing Flows (OT-CFM)</li>
+        <li>PPO and Actor-Critic dynamics on discrete control benchmarks</li>
       </ul>
     </td>
   </tr>
@@ -108,13 +107,13 @@ Rather than treating modern deep learning as a set of black-box APIs, I approach
   <summary><b>Current Literature Queue & Completed Deep Dives (Click to expand)</b></summary>
   <br/>
 
-| Field | Paper / Topic | Focus / Questions Under Investigation |
+| Field | Paper / Topic | Core Focus / Notes |
 | :--- | :--- | :--- |
-| **Generative Models** | *Denoising Diffusion Probabilistic Models (Ho et al.)* | Derivation of variational lower bound & noise scheduling |
-| **Flow Matching** | *Flow Matching for Generative Modeling (Lipman et al.)* | Straight paths in optimal transport vs. Brownian diffusion |
-| **Frame Generation** | *Diffusion Models for Video Generation & Interpolation* | Temporal cross-attention and latent space frame consistency |
-| **RL & Planning** | *Reinforcement Learning in Relational Domains* | Value iteration vs. graph representations in BlocksWorld |
-| **Systems / Hardware** | *Programming Massively Parallel Processors (Kirk & Hwu)* | Warp divergence, shared memory bank conflicts, tiling |
+| **Generative Models** | *Denoising Diffusion Probabilistic Models (Ho et al.)* | Derivation of the variational lower bound (ELBO) and noise schedule parametrization |
+| **Flow Matching** | *Flow Matching for Generative Modeling (Lipman et al.)* | Optimal transport straight vector fields versus Brownian diffusion paths |
+| **Frame Generation** | *Diffusion Models for Video Generation & Interpolation* | Bidirectional conditioning, temporal cross-attention, and latent consistency |
+| **RL & Planning** | *Reinforcement Learning in Relational Domains* | Value iteration, graph state representations, and credit assignment in BlocksWorld |
+| **Systems / Hardware** | *Programming Massively Parallel Processors (Kirk & Hwu)* | Warp divergence, memory coalescing, shared memory bank conflicts, and tiled execution |
 
 </details>
 
