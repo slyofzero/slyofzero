@@ -122,9 +122,9 @@ In machine learning, I care about first-principles understanding over API wrappe
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=slyofzero&show_icons=true&border_color=363C42&bg_color=23272B&title_color=F7F6F2&icon_color=E07A5F&text_color=B5B0A6" alt="GitHub Stats" width="41%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=slyofzero&show_icons=true&border_color=363C42&bg_color=23272B&title_color=F7F6F2&icon_color=E07A5F&text_color=B5B0A6" alt="GitHub Stats" height="175" />
   &nbsp;
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=slyofzero&layout=compact&border_color=363C42&bg_color=23272B&title_color=F7F6F2&text_color=B5B0A6" alt="Top Languages" width="41%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=slyofzero&layout=compact&border_color=363C42&bg_color=23272B&title_color=F7F6F2&text_color=B5B0A6" alt="Top Languages" height="175" />
 </p>
 
 <p align="center">
