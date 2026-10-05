@@ -1,6 +1,6 @@
 <!-- Header Banner with Dark Slate to Terracotta Fluent Gradient -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:181B1E,28:242A30,58:5E2E23,82:A84C36,100:E07A5F&height=145&section=header&text=Ishan%20Shishodiya&fontSize=36&fontAlignY=38&fontColor=F7F6F2&desc=Systems%20Engineer%20%E2%86%92%20AI%20Research%20Engineer&descFontSize=16&descAlignY=65&descColor=F7F6F2&animation=fadeIn" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:181B1E,28:242A30,58:5E2E23,82:A84C36,100:E07A5F&height=145&section=header&text=Ishan%20Shishodiya&fontSize=36&fontAlignY=38&fontColor=F7F6F2&desc=Systems%20Engineer%20%E2%86%92%20AI%20Researcher&descFontSize=16&descAlignY=65&descColor=F7F6F2&animation=fadeIn" width="100%" alt="Header Banner" />
   <br/>
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1200&color=E07A5F&center=true&vCenter=true&width=620&height=36&lines=Building+'MyTorch'%3A+C%2B%2B%2FCUDA+Autograd+%26+Tensor+Engine;Researching+Diffusion+Priors+for+Neural+Frame+Generation;Exploring+Reinforcement+Learning+in+Structured+Planning+(BlocksWorld);Understanding+how+machines+learn+structure%2C+not+just+patterns." alt="Typing SVG" />
