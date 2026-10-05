@@ -15,9 +15,9 @@
 
 ### 🧭 Research Statement
 
-I am a systems engineer transitioning into AI research and applied AI science. My background is in production distributed systems, concurrency, and high-throughput pipelines.
+I am an AI researcher with a background in systems engineering.
 
-In machine learning, I care about first-principles understanding over API wrapper engineering. Deep learning models are not black boxes to call; they are numerical systems shaped by hardware execution constraints, loss surface geometry, and optimization dynamics. My focus is on how representations emerge, how continuous generative flows evolve, and how to execute low-level tensor computations directly on hardware.
+I care about how models work from the ground up. Most of my work involves building tensor engines and autograd from scratch in C++ and CUDA, training diffusion models for video frame interpolation, and experimenting with reinforcement learning on planning problems.
 
 <p align="center">
   <img src="./assets/research-architecture.svg" alt="Research Architecture & Exploration Pillars" width="100%" />
@@ -27,10 +27,9 @@ In machine learning, I care about first-principles understanding over API wrappe
 
 ### 🔬 Core Research Focus
 
-* **Low-Level ML & Compute Engines**: Implementing automatic differentiation engines, custom CUDA kernels, memory allocators, and computation graphs from scratch in C++ and CUDA (`MyTorch`).
-* **Generative Modeling & Continuous Dynamics**: Investigating Diffusion Models, Continuous Normalizing Flows, and Flow Matching. Using diffusion priors for neural video frame interpolation conditioned on bidirectional temporal context.
-* **Reinforcement Learning & Structured Planning**: Evaluating policy and value function approximations in combinatorial environments with sparse reward landscapes (such as BlocksWorld), focusing on state abstractions and credit assignment.
-* **Representation Learning & Latent Geometry**: Analyzing inductive biases, manifold regularization, and why learned representations generalize across relational structures instead of merely fitting training distributions.
+* **Tensor Engines & Compute**: Building an autograd engine and tensor library from scratch in C++ and CUDA (`MyTorch`), focusing on computation graphs, custom kernels, and GPU memory layouts.
+* **Diffusion & Frame Generation**: Working with diffusion models and flow matching for video frame interpolation, generating in-between frames from past and future context.
+* **Reinforcement Learning & Planning**: Testing RL algorithms on structured environments like BlocksWorld with sparse rewards, studying state representation and credit assignment.
 
 ---
 
@@ -40,40 +39,40 @@ In machine learning, I care about first-principles understanding over API wrappe
   <tr>
     <td width="50%" valign="top">
       <h4>⚡ <code>MyTorch</code>: C++ and CUDA Tensor Engine</h4>
-      <p>A from-scratch deep learning tensor library and reverse-mode automatic differentiation engine in C++ and CUDA, built to study hardware execution and memory mechanics without framework abstractions.</p>
+      <p>A deep learning tensor library and autodiff engine built from scratch in C++ and CUDA to understand GPU execution and memory management directly.</p>
       <ul>
-        <li>Dynamic computation graph with reverse-mode automatic differentiation</li>
-        <li>Custom CUDA kernels for GEMM, elementwise activations, and reductions</li>
-        <li>Memory pooling and strided N-dimensional tensor layout implementations</li>
+        <li>Dynamic computation graph with reverse-mode autodiff</li>
+        <li>Custom CUDA kernels for matrix multiplication, activations, and reductions</li>
+        <li>Strided N-dimensional tensors and custom memory allocation</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🎞️ Neural Frame Interpolation with Diffusion Priors</h4>
-      <p>Using score-based generative models to synthesize high-fidelity intermediate video frames, targeting temporal consistency and complex motion occlusions.</p>
+      <h4>🎞️ Video Frame Interpolation with Diffusion</h4>
+      <p>Using diffusion models to generate intermediate video frames from surrounding frames, handling non-linear motion and occlusions.</p>
       <ul>
-        <li>Latent diffusion conditioned on preceding and succeeding frames</li>
-        <li>Temporal cross-attention with perceptual and optical flow consistency penalties</li>
-        <li>Benchmarking stochastic sampling trajectories against classical optical flow warping</li>
+        <li>Conditioning diffusion models on past and future frames</li>
+        <li>Temporal attention to maintain consistency across frames</li>
+        <li>Comparing diffusion-based generation with optical flow methods</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧱 Reinforcement Learning for Abstract Planning</h4>
-      <p>Applying tabular and deep RL algorithms to structured symbolic planning benchmarks (such as BlocksWorld) under sparse reward signals.</p>
+      <h4>🧱 Reinforcement Learning for Planning (BlocksWorld)</h4>
+      <p>Training RL agents to solve structured planning tasks like BlocksWorld where rewards are sparse and actions depend on object relationships.</p>
       <ul>
-        <li>Value function approximation over relational and graph state representations</li>
-        <li>Hindsight Experience Replay (HER) combined with curriculum exploration</li>
-        <li>Measuring empirical sample complexity against heuristic symbolic search (A*, PDDL)</li>
+        <li>State representations for relational planning environments</li>
+        <li>Hindsight Experience Replay (HER) to learn from failed attempts</li>
+        <li>Comparing learned policies against classical search (A*)</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>📐 Foundational Paper Reproductions</h4>
-      <p>Minimal, clean implementations of foundational papers to inspect derivations, loss landscapes, and empirical optimization behavior.</p>
+      <h4>📐 Paper Reproductions</h4>
+      <p>Clean, minimal implementations of foundational papers to understand the details that matter during training.</p>
       <ul>
-        <li>Denoising Diffusion Probabilistic Models (DDPM / DDIM) with custom noise schedules</li>
-        <li>Flow Matching and Continuous Normalizing Flows (OT-CFM)</li>
-        <li>PPO and Actor-Critic dynamics on discrete control benchmarks</li>
+        <li>DDPM and DDIM with custom sampling schedules</li>
+        <li>Flow Matching and optimal transport paths</li>
+        <li>PPO on Gymnasium control environments</li>
       </ul>
     </td>
   </tr>
@@ -107,13 +106,13 @@ In machine learning, I care about first-principles understanding over API wrappe
   <summary><b>Current Literature Queue & Completed Deep Dives (Click to expand)</b></summary>
   <br/>
 
-| Field | Paper / Topic | Core Focus / Notes |
+| Topic | Paper / Resource | Focus & Notes |
 | :--- | :--- | :--- |
-| **Generative Models** | *Denoising Diffusion Probabilistic Models (Ho et al.)* | Derivation of the variational lower bound (ELBO) and noise schedule parametrization |
-| **Flow Matching** | *Flow Matching for Generative Modeling (Lipman et al.)* | Optimal transport straight vector fields versus Brownian diffusion paths |
-| **Frame Generation** | *Diffusion Models for Video Generation & Interpolation* | Bidirectional conditioning, temporal cross-attention, and latent consistency |
-| **RL & Planning** | *Reinforcement Learning in Relational Domains* | Value iteration, graph state representations, and credit assignment in BlocksWorld |
-| **Systems / Hardware** | *Programming Massively Parallel Processors (Kirk & Hwu)* | Warp divergence, memory coalescing, shared memory bank conflicts, and tiled execution |
+| **Diffusion Models** | *Denoising Diffusion Probabilistic Models (Ho et al.)* | Derivation of the variational bound and noise schedules |
+| **Flow Matching** | *Flow Matching for Generative Modeling (Lipman et al.)* | Straight vector fields and optimal transport paths |
+| **Video Generation** | *Diffusion Models for Video Generation & Interpolation* | Temporal cross-attention and conditioning on surrounding frames |
+| **RL & Planning** | *Reinforcement Learning in Relational Domains* | State representations and credit assignment in BlocksWorld |
+| **GPU Architecture** | *Programming Massively Parallel Processors (Kirk & Hwu)* | Memory coalescing, shared memory, and warp divergence |
 
 </details>
 
@@ -128,7 +127,7 @@ In machine learning, I care about first-principles understanding over API wrappe
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=slyofzero&border=363C42&background=23272B&ring=E07A5F&fire=E07A5F&currStreakLabel=E07A5F&currStreakNum=F7F6F2&sideNums=F7F6F2&sideLabels=B5B0A6&dates=9E998F" alt="GitHub Streak" width="62%" />
+  <img src="https://streak-stats.vercel.app/?user=slyofzero&border=363C42&background=23272B&ring=E07A5F&fire=E07A5F&currStreakLabel=E07A5F&currStreakNum=F7F6F2&sideNums=F7F6F2&sideLabels=B5B0A6&dates=9E998F" alt="GitHub Streak" width="62%" />
 </p>
 
 <p align="center">
